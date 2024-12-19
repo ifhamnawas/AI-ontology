@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6/"
+     xml:base="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasPart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Point"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasArea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasArea">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasBase -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasBase">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Triangle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Triangle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasLength -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasLength">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Rectangle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasRadius -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasRadius">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Circle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasWidth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#hasWidth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Rectangle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Circle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Circle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Mathematics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Rectangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Rectangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Mathematics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Square -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Square">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Triangle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Triangle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Shapes"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Circle1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Circle1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Circle"/>
+        <untitled-ontology-6:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">78.54</untitled-ontology-6:hasArea>
+        <untitled-ontology-6:hasRadius rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</untitled-ontology-6:hasRadius>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#rectangle1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#rectangle1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Rectangle"/>
+        <untitled-ontology-6:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</untitled-ontology-6:hasArea>
+        <untitled-ontology-6:hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</untitled-ontology-6:hasLength>
+        <untitled-ontology-6:hasWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</untitled-ontology-6:hasWidth>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#triangle1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#triangle1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mohamedmohamed2_ysj/ontologies/2024/11/untitled-ontology-6#Triangle"/>
+        <untitled-ontology-6:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</untitled-ontology-6:hasArea>
+        <untitled-ontology-6:hasBase rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</untitled-ontology-6:hasBase>
+        <untitled-ontology-6:hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</untitled-ontology-6:hasHeight>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
